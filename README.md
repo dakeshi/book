@@ -14,6 +14,16 @@ Book that introduces the Reactive Programming in Swift with some useful applicat
     - **Improvement**: If you think any of the sections can be improved somehow, create a task for it proposing your improvement ideas.
   - If you're refering to any section in the book, specify the *section* and *page*
 
+
+## Book Playground Examples
+The book includes examples implemented in `Playground`. In order to execute them:
+
+1. Git clone the project: `git clone git@github.com:SwiftReactive/reactive-programming-in-your-swift-apps.git`
+2. Install carthage with `brew install carthage`
+3. Checkout Carthage dependencies with `carthage checkout --no-use-binaries`
+4. Open the project using the workspace `Playgrounds.xcworkspace`
+
+
 ### Book project
 The book comes with a Xcode project, a Github client implemented using Reactive. You can get the project on the repository https://github.com/SwiftReactive/GithubClient :
 
