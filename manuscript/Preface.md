@@ -1,7 +1,7 @@
 # Preface
 You might be reading this book because you're a developer and for a long time you've had the curiosity about **Reactive**. I had it a long time ago but every time I tried to analyze Reactive as a paradigm I couldn't see any advantage that motivated me to change the way I had been programming until then *(mostly Imperative Programming)*.
 
-Most of developers are used to develop in an **imperative** way that basically consist on defining instructions/commands. We tell the program **what** it has to do and the execution conditions:
+Most of developers are used to develop in an **imperative** way that basically consists on defining instructions/commands. We tell the program **what** it has to do and the execution conditions:
 
 - Show this view.
 - Download these data this the API.
@@ -12,9 +12,9 @@ Most of developers are used to develop in an **imperative** way that basically c
 
 Amongst other **reasons**, we develop that way because the frameworks and most of resources aim to follow that style, we're surrounded by Imperative Programming. Why should I change if most of resources, frameworks as well as tutorials on Internet are designed imperatively?
 
-**Functional Programming allows coding with fewer potentials for bugs because each component is completely isolated**
+**Functional Programming allows coding with fewer potentials for bugs because each component is completely isolated**.
 
-Later in this book I'll give more details about the advantages and disadvantages but when you start enjoying with Reactive you'll figure out how your components APIS get simplified and you'll feel like a baby playing with streams.
+Later in this book I'll give more details about the advantages and disadvantages but when you start enjoying with Reactive you'll figure out how your components APIs get simplified and you'll feel like a baby playing with streams.
 
 ## Why Swift?
 
@@ -38,11 +38,11 @@ My name is Pedro, in most of social networks you'll find me as **@pepibumur**. A
 
 In 2010, when I started the University in Valencia, I got my first Macbook Pro. By that time I gave my first steps in programming. It wasn't Objective-C, but **C**. I remember the teacher insisting on the importance of teaching C as a programming language since most of the students didn't have any programming knowledge. He refused teaching Java or even introducing OOP without having a perfect idea of the basic programming concepts like types, functions, basic operators...
 
-I remember my class mates suffering to finish some tasks with the most basic concepts in C. I wonder what would have happened if the teacher had introduced OOP...
+I remember my classmates suffering to finish some tasks with the most basic concepts in C. I wonder what would have happened if the teacher had introduced OOP...
 
 Apart from C we also worked with other languages like **Matlab** for almost all the degree subjects and **Java** that we used for small apps that implemented telematic services like "implementing a web server", "implementing a DNS server", ... I remember hating Java as a language and I have to say I keep doing it.
 
-Some months later I downloaded **Xcode** and with the help of some tutorials on Internet I started with some tests in Objective-C. My first lessons around OOP were with Objective-C. I learnt the typical Apple architectural patterns. I remember the first time I read about the *Delegate* pattern and having to read it multiple times until I was able to understand what it exactly was. I also remember having to manage the *reference counting* manually before ARC was introduced. I started learning the language like if I was exploring a jungle, experimenting, trying, failing and exploring all the resources around Internet *(I also bought some books and Stackoverflow became my best friend)*
+Some months later I downloaded **Xcode** and with the help of some Internet tutorials I started with some tests in Objective-C. My first lessons around OOP were with Objective-C. I learnt the typical Apple architectural patterns. I remember the first time I read about the *Delegate* pattern and having to read it multiple times until I was able to understand what it exactly was. I also remember having to manage the *reference counting* manually before ARC was introduced. I started learning the language like if I was exploring a jungle, experimenting, trying, failing and exploring all the resources around Internet *(I also bought some books and Stackoverflow became my best friend)*.
 
 In these first years with Objective-C I developed  some apps that are still available on the App Store but whose code can be very close to a spaguetti dish. The following years I released different apps, each one more complex than the previous one, but without focusing too much on such important points in software projects as *architecture, patterns, code organization, scalability, reusability, ...*
 
@@ -53,14 +53,14 @@ It was in 2014 when I joined the **Redbooth** iOS team, startup from Barcelona w
 - Work in teams.
 - Project organization and Agile methodologies.
 - Importance of architectures and code style.
-- Git & Github *(I know, I fell in love a bit late, but I can't live without it now)*
-- First steps with Android *(I still remember what agonizing was leaving Objective-C to develop in Java and wait for Gradle to get the project compiled, it was the perfect time to prepare a coffee)*
+- Git & Github *(I know, I fell in love a bit late, but I can't live without it now)*.
+- First steps with Android *(I still remember what agonizing was leaving Objective-C to develop in Java and wait for Gradle to get the project compiled, it was the perfect time to prepare a coffee)*.
 
 One year later I joined the project [**8fit**](http://8fit.com) being in that case the Mobile Lead Developer responsible of both iOS and Android projects. The project was starting and I had a long road ahead, not only in the development side but also in teams leadership. During that time I have had the freedom of experiment and get the product close to the recent SDK improvements:
 
 - Since the first version of **Swift** we've been introducing new components to the app 100% writen in Swift. In fact, we've as a rule in the company to use Swift for future components and test them using Swift.
-- Developed an app for **Apple Watch**
-- Interaction with web doing native implementations, designing the migration to a pure native approach *(as Facebook did a long time ago starting with a web product)*
+- Developed an app for **Apple Watch**.
+- Interaction with web doing native implementations, designing the migration to a pure native approach *(as Facebook did a long time ago starting with a web product)*.
 
 Moreover having the leader position has allowed me to grow from the organizative perspective and learn a lot of skills and tricks to coordinate, manage, motivate and align human teams with the project needs.
 
