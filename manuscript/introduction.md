@@ -8,7 +8,7 @@ You might have heard before about RP, even you might have seen some examples. Ac
 > In Reactive Programming, the value of `a` would be automatically updated based on the new values.
 
 We understand RP as a paradigm where the information/data/events flow in an “channel” and our program/logic reacts according to these events. These channels where the information flows through  are called **streams** and the information sent are **events**.
-All the events that take place in our app are now **events sources**, and these sources are **observables**. When they send event, we are responsible to operate with them, combining, mapping, filtering, or just simply, consuming them. Some examples of streams could be:
+All the events that take place in our app are now **events sources**, and these sources are **observables**. When they send events, we are responsible to operate with them, combining, mapping, filtering, or just simply, consuming them. Some examples of streams could be:
 
 1. A web request where the data source would be the API client, and the events sent, the responses from the server.
 2. The tap event on a button. The button itself would be the data source and the taps on the button would be the actions.

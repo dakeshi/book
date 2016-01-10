@@ -4,13 +4,13 @@ You might be reading this book because you're a developer and for a long time yo
 Most of developers are used to develop in an **imperative** way that basically consists on defining instructions/commands. We tell the program **what** it has to do and the execution conditions:
 
 - Show this view.
-- Download these data this the API.
+- Download these data from the API.
 - Update a view with the models that come from this data source.
 
 > **Imperative Programming - [Wikipedia](https://en.wikipedia.org/wiki/Imperative_programming)**
 > In computer science, Imperative Programming is a programming paradigm that uses statements that change a program's state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative Programming focuses on describing how a program operates.
 
-Amongst other **reasons**, we develop that way because the frameworks and most of resources aim to follow that style, we're surrounded by Imperative Programming. Why should I change if most of resources, frameworks as well as tutorials on Internet are designed imperatively?
+Amongst other **reasons**, we develop in that way because the frameworks and most of resources aim to follow that style, we're surrounded by Imperative Programming. Why should I change if most of resources, frameworks as well as Internet tutorials are designed imperatively?
 
 **Functional Programming allows coding with fewer potentials for bugs because each component is completely isolated**.
 
