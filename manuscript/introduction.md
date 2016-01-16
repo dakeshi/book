@@ -8,7 +8,7 @@ You might have heard before about RP, even you might have seen some examples. Ac
 > In Reactive Programming, the value of `a` would be automatically updated based on the new values.
 
 We understand RP as a paradigm where the information/data/events flow in an “channel” and our program/logic reacts according to these events. These channels where the information flows through  are called **streams** and the information sent are **events**.
-All the events that take place in our app are now **events sources**, and these sources are **observables**. When they send event, we are responsible to operate with them, combining, mapping, filtering, or just simply, consuming them. Some examples of streams could be:
+All the events that take place in our app are now **events sources**, and these sources are **observables**. When they send events, we are responsible to operate with them, combining, mapping, filtering, or just simply, consuming them. Some examples of streams could be:
 
 1. A web request where the data source would be the API client, and the events sent, the responses from the server.
 2. The tap event on a button. The button itself would be the data source and the taps on the button would be the actions.
@@ -18,14 +18,14 @@ You might have noticed that almost everything can be modeled as a stream of data
 
 I> RxSwift has recently created a [community](http://community.rxswift.org/) publishing different projects, and extensions that are using RxSwift. You find projects like [RxAlamofire](https://github.com/RxSwiftCommunity/RxAlamofire) that makes the popular [Alamofire](https://github.com/Alamofire/Alamofire) Reactive. Or [Action](https://github.com/RxSwiftCommunity/Action) that encapsulates an action to be performed, usually by a button press. Contains helpful extensions on a variety of UI classes.
 
-The events received from these streams will be mostly consumed directly and won’t require any manipulation before using them, but one of the main advantages of RP is the ease of applying operators to these events. These operators are defined as a functions that can be applied to the stream. The term functional appears, and joins the RP pardigm, **Functional Reactive Programming**. We couldn’t imagine RP without the use of functional concepts.
+The events received from these streams will be mostly consumed directly and won’t require any manipulation before using them, but one of the main advantages of RP is the ease of applying operators to these events. These operators are defined as a function that can be applied to the stream. The term functional appears, and joins the RP paradigm, **Functional Reactive Programming**. We couldn’t imagine RP without the use of functional concepts.
 
 > An operator applied to a  stream is a function that given an input stream it returns another stream manipulating the events received by the source stream.
 
 When we *consume* these events we can do it in two ways:
 
 - **Observing**: We can directly observe the stream, and specify in a *closure* the operations to be executed depending on the type of event.
-- **Binding**: Connecting streams with existing object. Every time an event is received from the stream, it automatically updates the object *(or object property)*.
+- **Binding**: Connecting streams with an existing object. Every time an event is received from the stream, it automatically updates the object *(or object property)*.
 
 For example, if we have a stream that sends collections of tasks to be shown in a table, and we have a collection that keeps a reference to the last returned collection, we can bind the signal that returns these collections to the collection property. That way it always reflect the last state when the stream sends new collections. It’s also very common use binding for UI elements. For example, updating the state of enabled in a button using a function that validates some text streams.
 
@@ -58,7 +58,7 @@ Reactive libraries available nowadays offer extensions to move from these patter
 
 ## Advantages
 
-RP has big advantages used in contexts where it's pretty straightforward modeling the flow of events as a stream. As I commented previously, everything can be modeled as an stream, and you can in fact have a project fully reactive, but from my point of view, you'll end up having a very complex logic for streams generation that will make more difficult the readability of your code.
+RP has big advantages used in contexts where it's pretty straightforward modeling the flow of events as a stream. As I commented previously, everything can be modeled as a stream, and you can in fact have a project fully reactive, but from my point of view, you'll end up having a very complex logic for streams generation that will make more difficult the readability of your code.
 
 > With Reactive Programming happens something similar to Functional Programming. It's a paradigm in programming that has been more widely used on the iOS/OSX development with the launch of Swift. There's no need to feel overwhelmed and feel a big pressure to migrate your projects towards these paradigms. Use these in your projects as you see you're comfortable with them and you feel that your project requires them in some components.
 
@@ -69,7 +69,7 @@ After some months using RP in my projects, especially in the data source *(local
 - **Ease combining events:** Received events through the streams can be mapped, filtered, reduced. thanks to  the use of functions defined we can apply as much operators as we want to these events.
 - **Observing in threads:** No matter where *(thread)* the operations are being executed, you can specify which thread you observe from. That way for example you can execute an asynchronous web request and observe it from the main thread. It's very useful from the presentation layer.
 - **Easy composition and reusability:** The streams can be combined in many ways *(thanks to the operators that frameworks provide)*. Moreover we can create our own operators according to our needs. Frameworks recommend you trying to use the existing one because these have been perfectly designed keeping all the principles of the Reactive in mind.
-- **Error handling:** By default Reactive frameworks offer error handling operators. In case of failure operations are retried according to your specified rules. For example, if a stream receives a response from an HTTP request and we want that request to be retried in case of reciving an specific error we can use these operators and auto retry that request.
+- **Error handling:** By default Reactive frameworks offer error handling operators. In case of failure, operations are retried according to your specified rules. For example, if a stream receives a response from an HTTP request and we want that request to be retried in case of receiving an specific error we can use these operators and auto retry that request.
 
 {width=100%}
 ![Reactive request using NSURLSession. The request is automatically retried in case of getting an error response.](images/introduction_request.png)
