@@ -36,7 +36,7 @@
 			<string>introduction.md</string>
 		</array>
 		<array>
-			<string>concepts.md</string>
+			<string>Concepts.md</string>
 		</array>
 		<array>
 			<string>reactivecocoa.md</string>
@@ -55,6 +55,12 @@
 		</array>
 		<array>
 			<string>structure.md</string>
+		</array>
+		<array>
+			<string>backmatter.md</string>
+		</array>
+		<array>
+			<string>Operators.md</string>
 		</array>
 	</array>
 </dict>

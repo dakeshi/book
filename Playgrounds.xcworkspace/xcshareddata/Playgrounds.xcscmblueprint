@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1166401DD3B3DE9DC18A4855EA402E9738680972",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1166401DD3B3DE9DC18A4855EA402E9738680972" : 0,
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FFC04E66-6E56-46AA-8AD8-B12D0380F352",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1166401DD3B3DE9DC18A4855EA402E9738680972" : "reactive-programming-in-your-swift-apps\/",
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : "Carthage\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Playgrounds",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Playgrounds.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/SwiftReactive\/reactive-programming-in-your-swift-apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1166401DD3B3DE9DC18A4855EA402E9738680972"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:gitdoapp\/Carthage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB0A48DD995E26A187DED71E830FA3DB4DD771C9"
+    }
+  ]
+}
