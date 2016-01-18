@@ -1,12 +1,11 @@
 import Foundation
 import UIKit
-import RxSwift
+import ReactiveCocoa
+import CoreLocation
 
-let observable: Observable<String> = Observable.create { (observable) -> Disposable in
-    observable.onNext("ola k ase")
-    return NopDisposable.instance
-}
+let signal: Signal<String, NSError>?
+let producer: SignalProducer<CLLocation, NSError>?
 
-observable.subscribeNext { (next) -> Void in
-}
+
+
 
