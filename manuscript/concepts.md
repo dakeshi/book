@@ -71,7 +71,8 @@ Apart from sending data event, signal also support sending events that mean the 
 
 `Signal`s and `SignalProducer`s in Reactive Cocoa are generic types. You ca specify the data and the error type of these objects.
 
-![Example observing a text field attribute changes.](images/concepts_events_recative.png)
+{width=100%}
+![](images/concepts_events_recative.png)
 
 Thanks to *generics* we can now at every point the kind of data we're expecting.
 
