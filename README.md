@@ -1,34 +1,25 @@
 # Reactive Programming in your Swift Apps
 Book that introduces the Reactive Programming in Swift with some useful application examples.
 
+![image](https://github.com/SwiftReactive/reactive-programming-in-your-swift-apps/blob/master/assets/minicover.jpg?raw=true)
+
 ### How to provide feedback
 
 1. Use the last version from [Leanpub](https://leanpub.com/reactiveprogrammingswift)
-2. Use the [Trello board](https://trello.com/b/mqPuiSt2/book-reactive-programming-in-your-swift-apps) to report feedback:
-  - Add the feedback in the proper list.
+2. [Create an issue](https://github.com/SwiftReactive/reactive-programming-in-your-swift-apps/issues/new) on this repository:
   - Use the existing labels to group the feedback depending on its type:
     - **Typo**: Any typo mistake you find in the book, report it with this label.
     - **Idea**: If you had any idea for the book, propose it here *(e.g. explaining how to convert any existing component into Reactive)*
     - **Improvement**: If you think any of the sections can be improved somehow, create a task for it proposing your improvement ideas.
   - If you're refering to any section in the book, specify the *section* and *page*
 
+### Example project: SoundCloudy
 
-## Book Playground Examples
-The book includes examples implemented in `Playground`. In order to execute them:
+1. Git clone this repository: `git clone https://github.com/SwiftReactive/reactive-programming-in-your-swift-apps.git`
+2. Install CocoaPods if you didn't have it installed `gem install cocoapods`
+3. Inside th folder `SoundCloudy` execute `pod instal`
+4. Open the project using `SoundCloudy.xcworkspace`
 
-1. Git clone the project: `git clone git@github.com:SwiftReactive/reactive-programming-in-your-swift-apps.git`
-2. Install carthage with `brew install carthage`
-3. Checkout Carthage dependencies with `carthage checkout --no-use-binaries`
-4. Open the project using the workspace `Playgrounds.xcworkspace`
-
-
-### Book project
-The book comes with a Xcode project, a Github client implemented using Reactive. You can get the project on the repository https://github.com/SwiftReactive/GithubClient :
-
-1. Git clone the repository in your system with `git clone https://github.com/SwiftReactive/GithubClient`
-2. Install [Carthage](https://github.com/carthage/carthage) if you didn't have it installed with `brew install carthage`
-3. Execute `carthage update` to fetch and build the dependencies.
-4. Open the `GithubClient.xcodeproj` file.
 
 ### Reviewers
 Here's the list of people that will contribute with the book reviewing it and providing direct feedback.
