@@ -24,3 +24,19 @@ All of the views above need core components to interact with data sources:
 | HTTP Rest API          | Retrieving data from the user account on SoundCloud. In some views like Search we will present the data without any previous persistence but in some others, the data will be persisted.           |
 | Realm (Local Database) | Fetching and saving data from the user profile like favourites or playlists. Thanks to local persistence the user can navigate through the app and have content pre-loaded.                        |
 | Keychain               | Storing the user session needed in every request sent to the API. The session is persisted once the user logs in, and cleaned when the user logouts. The session is persisted across app launches. |
+
+
+### Notes
+
+- The app is implemented using [RxSwift](https://github.com/reactivex/rxswift) but it is also explained how the features could be implemented using [ReactiveCocoa](https://github.com/reactivecocoa/reactivecocoa) in case you decide using ReactiveCocoa instead of RxSwift.
+- The API reference is available [here](https://developers.soundcloud.com/docs/api/reference). Only the required endpoints are implemented in the API client but you can extend the same building logic to add new endpoints or models.
+- External dependencies of the project are resolved using [CocoaPods](https://cocoapods.org) but all of them offer support for [Carthage](https://github.com/carthage/carthage) as well.
+- The architecture followed by the app is **VIPER** where views are pure passive components. Presenters are responsible of briging the data and formatting it to be presented. The data us fetched using interactors that applythe business logic to the data that is fetched from repositories.
+where views will behaves as passive components, and the presenters will format the data for its presentation.
+- Layouts are built by code using [SnapKit](https://github.com/SnapKit/SnapKit) to simplify autolayouts.
+
+If you haven't setup the project yet, do it! It's easier going through the book having a look to the project in Xcode.
+
+## Core Components
+
+### 
