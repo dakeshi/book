@@ -10,3 +10,4 @@
 - *Sommer Panage*: Accessibility Three Ways: iOS Implementation Case Studies. [Link](https://realm.io/news/sommer-panage-accessibility-implementation-ios/)
 - *Nacho Soto*: Imperative FRP. [Link](https://realm.io/news/nacho-soto-functional-reactive-programming/)
 - *Ash Furrow*: Moya. [Link](https://github.com/Moya/Moya)
+- *SoundCloud*. HTTP API reference. [Link](https://developers.soundcloud.com/docs/api/reference)
