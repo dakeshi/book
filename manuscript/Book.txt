@@ -5,9 +5,7 @@ preface.md
 notes.md
 mainmatter.md
 introduction.md
-concepts.md
-operators.md
-design.md
+app-reactive.md
 advanced.md
 backmatter.md
 references.md
