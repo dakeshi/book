@@ -1,5 +1,5 @@
-Application implemented using Reactive Programming
-==================================================
+# Application implemented using Reactive Programming
+## Introduction
 
 Initially the book was thought to explain all the concepts in a single section but we figured out that can be overwhelming for developers giving their firs steps in Reactive Programming. In this new version we'll introduce the conceps using an example app with the basic elements of any iOS app:
 
@@ -35,8 +35,11 @@ All of the views above need core components to interact with data sources:
 where views will behaves as passive components, and the presenters will format the data for its presentation.
 - Layouts are built by code using [SnapKit](https://github.com/SnapKit/SnapKit) to simplify autolayouts.
 
-If you haven't setup the project yet, do it! It's easier going through the book having a look to the project in Xcode.
+If you haven't setup the project yet, do it! It's easier going through the book having a look to the project in Xcode. Remember that the project is available on this repository.
 
 ## Core Components
 
-### 
+### Keychain
+
+The first component we're going to implement using Reactive is going to be the accessor to the Keychain in order to persist the user session.
+

@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		220690E8F6ED3D9BD0CE93BA /* Pods_SoundCloudyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09720E62A88F4CC4342CB006 /* Pods_SoundCloudyTests.framework */; };
-		230797231C5A0D7900C757CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797221C5A0D7900C757CE /* AppDelegate.swift */; };
-		230797251C5A0D7900C757CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797241C5A0D7900C757CE /* ViewController.swift */; };
-		230797281C5A0D7900C757CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230797261C5A0D7900C757CE /* Main.storyboard */; };
-		2307972A1C5A0D7900C757CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230797291C5A0D7900C757CE /* Assets.xcassets */; };
-		2307972D1C5A0D7900C757CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2307972B1C5A0D7900C757CE /* LaunchScreen.storyboard */; };
 		230797381C5A0D7900C757CE /* SoundCloudyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797371C5A0D7900C757CE /* SoundCloudyTests.swift */; };
+		2307974F1C5A212A00C757CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 230797441C5A212A00C757CE /* Assets.xcassets */; };
+		230797501C5A212A00C757CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230797461C5A212A00C757CE /* LaunchScreen.storyboard */; };
+		230797511C5A212A00C757CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230797481C5A212A00C757CE /* Main.storyboard */; };
+		230797541C5A212A00C757CE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2307974E1C5A212A00C757CE /* Info.plist */; };
+		2307975A1C5A217100C757CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797561C5A217100C757CE /* AppDelegate.swift */; };
+		2307975B1C5A217100C757CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797581C5A217100C757CE /* ViewController.swift */; };
+		2307975D1C5A217800C757CE /* KeychainRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2307975C1C5A217800C757CE /* KeychainRepository.swift */; };
+		230797611C5A229900C757CE /* DataConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797601C5A229900C757CE /* DataConvertible.swift */; };
+		230797631C5A23F200C757CE /* DictionaryConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230797621C5A23F200C757CE /* DictionaryConvertible.swift */; };
 		332D974C3864E93679F2AFEF /* Pods_SoundCloudy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4524EA461B83AA6EE27528EA /* Pods_SoundCloudy.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,15 +34,18 @@
 /* Begin PBXFileReference section */
 		09720E62A88F4CC4342CB006 /* Pods_SoundCloudyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundCloudyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2307971F1C5A0D7900C757CE /* SoundCloudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundCloudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		230797221C5A0D7900C757CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		230797241C5A0D7900C757CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		230797271C5A0D7900C757CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		230797291C5A0D7900C757CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2307972C1C5A0D7900C757CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2307972E1C5A0D7900C757CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		230797331C5A0D7900C757CE /* SoundCloudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCloudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230797371C5A0D7900C757CE /* SoundCloudyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudyTests.swift; sourceTree = "<group>"; };
 		230797391C5A0D7900C757CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230797441C5A212A00C757CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		230797471C5A212A00C757CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		230797491C5A212A00C757CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2307974E1C5A212A00C757CE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		230797561C5A217100C757CE /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		230797581C5A217100C757CE /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2307975C1C5A217800C757CE /* KeychainRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainRepository.swift; sourceTree = "<group>"; };
+		230797601C5A229900C757CE /* DataConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConvertible.swift; sourceTree = "<group>"; };
+		230797621C5A23F200C757CE /* DictionaryConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryConvertible.swift; sourceTree = "<group>"; };
 		4524EA461B83AA6EE27528EA /* Pods_SoundCloudy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SoundCloudy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FF3C62563650406E35ECF86 /* Pods-SoundCloudyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCloudyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoundCloudyTests/Pods-SoundCloudyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		86D7D5E02E800AFD8CF0918D /* Pods-SoundCloudyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoundCloudyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoundCloudyTests/Pods-SoundCloudyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -89,12 +96,9 @@
 		230797211C5A0D7900C757CE /* SoundCloudy */ = {
 			isa = PBXGroup;
 			children = (
-				230797221C5A0D7900C757CE /* AppDelegate.swift */,
-				230797241C5A0D7900C757CE /* ViewController.swift */,
-				230797261C5A0D7900C757CE /* Main.storyboard */,
-				230797291C5A0D7900C757CE /* Assets.xcassets */,
-				2307972B1C5A0D7900C757CE /* LaunchScreen.storyboard */,
-				2307972E1C5A0D7900C757CE /* Info.plist */,
+				230797421C5A212A00C757CE /* Resources */,
+				2307974A1C5A212A00C757CE /* Source */,
+				2307974D1C5A212A00C757CE /* Support */,
 			);
 			path = SoundCloudy;
 			sourceTree = "<group>";
@@ -106,6 +110,92 @@
 				230797391C5A0D7900C757CE /* Info.plist */,
 			);
 			path = SoundCloudyTests;
+			sourceTree = "<group>";
+		};
+		230797421C5A212A00C757CE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				230797431C5A212A00C757CE /* Assets */,
+				230797451C5A212A00C757CE /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		230797431C5A212A00C757CE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				230797441C5A212A00C757CE /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		230797451C5A212A00C757CE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				230797461C5A212A00C757CE /* LaunchScreen.storyboard */,
+				230797481C5A212A00C757CE /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2307974A1C5A212A00C757CE /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2307975F1C5A229000C757CE /* Protocols */,
+				2307975E1C5A221600C757CE /* Errors */,
+				230797551C5A217100C757CE /* App */,
+				230797571C5A217100C757CE /* Features */,
+				230797591C5A217100C757CE /* Repositories */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2307974D1C5A212A00C757CE /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				2307974E1C5A212A00C757CE /* Info.plist */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		230797551C5A217100C757CE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				230797561C5A217100C757CE /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		230797571C5A217100C757CE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				230797581C5A217100C757CE /* ViewController.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		230797591C5A217100C757CE /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				2307975C1C5A217800C757CE /* KeychainRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		2307975E1C5A221600C757CE /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		2307975F1C5A229000C757CE /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				230797601C5A229900C757CE /* DataConvertible.swift */,
+				230797621C5A23F200C757CE /* DictionaryConvertible.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		426680A959ABC38519F5FA78 /* Pods */ = {
@@ -215,9 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2307972D1C5A0D7900C757CE /* LaunchScreen.storyboard in Resources */,
-				2307972A1C5A0D7900C757CE /* Assets.xcassets in Resources */,
-				230797281C5A0D7900C757CE /* Main.storyboard in Resources */,
+				230797541C5A212A00C757CE /* Info.plist in Resources */,
+				230797511C5A212A00C757CE /* Main.storyboard in Resources */,
+				2307974F1C5A212A00C757CE /* Assets.xcassets in Resources */,
+				230797501C5A212A00C757CE /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,8 +419,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				230797251C5A0D7900C757CE /* ViewController.swift in Sources */,
-				230797231C5A0D7900C757CE /* AppDelegate.swift in Sources */,
+				2307975B1C5A217100C757CE /* ViewController.swift in Sources */,
+				230797631C5A23F200C757CE /* DictionaryConvertible.swift in Sources */,
+				2307975D1C5A217800C757CE /* KeychainRepository.swift in Sources */,
+				2307975A1C5A217100C757CE /* AppDelegate.swift in Sources */,
+				230797611C5A229900C757CE /* DataConvertible.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,20 +446,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		230797261C5A0D7900C757CE /* Main.storyboard */ = {
+		230797461C5A212A00C757CE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				230797271C5A0D7900C757CE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2307972B1C5A0D7900C757CE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2307972C1C5A0D7900C757CE /* Base */,
+				230797471C5A212A00C757CE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		230797481C5A212A00C757CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				230797491C5A212A00C757CE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -457,7 +551,7 @@
 			baseConfigurationReference = CACC4E73F925ADB087DE71FB /* Pods-SoundCloudy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SoundCloudy/Info.plist;
+				INFOPLIST_FILE = SoundCloudy/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.ppinera.SoundCloudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -469,7 +563,7 @@
 			baseConfigurationReference = BFF28A5C40416E15C71A26E0 /* Pods-SoundCloudy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = SoundCloudy/Info.plist;
+				INFOPLIST_FILE = SoundCloudy/Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = es.ppinera.SoundCloudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
