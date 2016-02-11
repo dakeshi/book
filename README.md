@@ -1,8 +1,6 @@
 # Reactive Programming in your Swift Apps
 Book that introduces the Reactive Programming in Swift with some useful application examples.
 
-![image](https://github.com/pepibumur/reactive-programming-in-your-swift-apps/blob/master/assets/minicover.jpg?raw=true)
-
 ### How to provide feedback
 
 1. Use the last version from [Leanpub](https://leanpub.com/reactiveprogrammingswift)
