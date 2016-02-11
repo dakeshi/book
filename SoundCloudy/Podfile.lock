@@ -22,8 +22,8 @@ DEPENDENCIES:
   - Quick (~> 0.9)
   - RealmSwift (~> 0.9)
   - RxBlocking (~> 2.0)
-  - RxCocoa (~> 2.0)
-  - RxSwift (~> 2.0)
+  - RxCocoa (~> 2.1)
+  - RxSwift (~> 2.1)
   - RxTests (~> 2.0)
   - SnapKit (~> 0.1)
 
