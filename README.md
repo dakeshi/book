@@ -15,8 +15,8 @@ Book that introduces the Reactive Programming in Swift with some useful applicat
 
 1. Git clone this repository: `git clone https://github.com/pepibumur/reactive-programming-in-your-swift-apps.git`
 2. Install CocoaPods if you didn't have it installed `gem install cocoapods`
-3. Inside th folder `SoundCloudy` execute `pod instal`
-4. Open the project using `SoundCloudy.xcworkspace`
+3. Inside th folder `GitHubClient` execute `pod instal`
+4. Open the project using `GitHubClient.xcworkspace`
 
 
 ### Reviewers

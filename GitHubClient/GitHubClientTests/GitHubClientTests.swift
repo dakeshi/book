@@ -1,15 +1,15 @@
 //
-//  SoundCloudyTests.swift
-//  SoundCloudyTests
+//  GitHubClientTests.swift
+//  GitHubClientTests
 //
-//  Created by Pedro Pinera Buendia on 28/01/16.
-//  Copyright © 2016 es.ppinera. All rights reserved.
+//  Created by Pedro Piñera Buendía on 22/02/16.
+//  Copyright © 2016 PPinera. All rights reserved.
 //
 
 import XCTest
-@testable import SoundCloudy
+@testable import GitHubClient
 
-class SoundCloudyTests: XCTestCase {
+class GitHubClientTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
